@@ -176,3 +176,8 @@ a:active {
 
 @media print {
 }
+
+@font-face {
+  font-family:"2010 Gouttes";
+  src: url("2010Gouttes.ttf");
+}
