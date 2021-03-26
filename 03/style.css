@@ -1,0 +1,553 @@
+html {
+	font-size: 20px;
+font-family: dinosaur, sans-serif;
+font-weight: 400;
+font-style: normal;
+background: teal;
+
+
+}
+
+
+@media all and (min-width:1126px) and (max-width: 5000px) {
+  
+::selection {
+  color: teal;
+  background: black;
+}
+  a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+}
+
+blockquote {
+  font-size: 40px;
+  	font-family: cooper-black-std, serif;
+font-weight: 400;
+color: orange;
+
+margin-left: 50vw;
+margin-top: 45vh;
+  margin-bottom: 45vh;
+direction: rtl;
+
+
+}
+
+h1 {
+  animation-name: header;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+  
+  h1{animation-timing-function: linear;}
+  
+  @keyframes header {
+  0%   {filter: blur(10px); line-height: 0vh;  letter-spacing: 0px; }
+  100% {filter: blur(1px); line-height: 15vh;  letter-spacing: 0px; }
+}
+  
+h1 {
+  	  	font-family: cooper-black-std, serif;
+font-weight: 400;
+  font-size: 110px;
+  font-style: normal;
+  color: red;
+    margin-left:5vw;
+  margin-right: 70vw;
+        margin-top: 3vh;
+      margin-bottom: 25vh;
+filter: blur(4px);
+  border-radius: 200px;
+  position: fixed;
+  text-align: left;
+  mix-blend-mode: multiply;
+  
+}
+
+h2 {
+	color: orange;
+  	font-family: cooper-black-std, serif;
+font-weight: 400;
+    font-size: 25px;
+margin-left: 50vw;
+  margin-right: 1vw;
+  margin-top: 1vw;
+    text-align:justify;
+    direction:rtl;
+  
+}
+  
+  h3 {
+	color: orange;
+  	font-family: cooper-black-std, serif;
+font-weight: 400;
+    font-size: 25px;
+margin-left: 50vw;
+  margin-right: 1vw;
+  margin-top: 1vw;
+    text-align:justify;
+    direction:rtl;
+  
+}
+  
+
+
+p:nth-of-type(1) {
+	color: orange;
+  	font-family: cooper-black-std, serif;
+font-weight: 400;
+    font-size: 25px;
+margin-left: 50vw;
+  margin-right: 1vw;
+  margin-top: 1vw;
+    text-align:justify;
+    direction:rtl;
+}
+  
+  
+  
+  
+      /* rött block 2 */
+  p:nth-of-type(2) {
+  animation-name: redbox;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+  
+  p:nth-of-type(2){animation-timing-function: linear;}
+  
+  @keyframes redbox {
+  0%   {margin-left: 50vw; margin-right: 26vw;}
+  100% {margin-left: 75vw; margin-right: 1vw;}
+}
+
+  
+p:nth-of-type(2) {
+	color: teal;
+  background-color: red;
+  font-style: italic;
+    font-size: 15px;
+margin-left: 75vw;
+  margin-right: 1vw;
+  filter: blur(1px);
+    text-align:justify;
+    direction:rtl;
+}
+      /* rött block 2 */
+
+
+  
+
+p:nth-of-type(3) {
+	color: orange;
+  	font-family: cooper-black-std, serif;
+font-weight: 400;
+    font-size: 25px;
+margin-left: 50vw;
+  margin-right: 1vw;
+    text-align:justify;
+    direction:rtl;
+}
+
+
+  
+      /* rött block 4 */
+  p:nth-of-type(4) {
+  animation-name: redbox2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+  
+  p:nth-of-type(4){animation-timing-function: linear;}
+  
+  @keyframes redbox2 {
+  0%   {margin-left: 75vw; margin-right: 1vw; }
+  100% {margin-left: 50vw; margin-right: 26vw;}
+}
+  
+  p:nth-of-type(4) {
+	color: teal;
+  background-color: red;
+  font-style: italic;
+    font-size: 15px;
+margin-left: 75vw;
+  margin-right: 1vw;
+  filter: blur(1px);
+    text-align:justify;
+    direction:rtl;
+}
+      /* rött block 4 */
+  
+  
+ 
+  
+  
+      /* rött block 5 */
+    p:nth-of-type(5) {
+  animation-name: redbox;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+  
+  p:nth-of-type(5){animation-timing-function: linear;}
+  
+  @keyframes redbox {
+  0%   {margin-left: 50vw; margin-right: 26vw;}
+  100% {margin-left: 75vw; margin-right: 1vw;}
+}
+
+  p:nth-of-type(5) {
+	color: teal;
+  background-color: red;
+  font-style: italic;
+    font-size: 15px;
+margin-left: 75vw;
+  margin-right: 1vw;
+  filter: blur(1px);
+    text-align:justify;
+    direction:rtl;
+}
+      /* rött block 5 */
+  
+  
+  
+  
+  
+  p:nth-of-type(6) {
+	color: orange;
+  	font-family: cooper-black-std, serif;
+font-weight: 400;
+    font-size: 25px;
+margin-left: 50vw;
+  margin-right: 1vw;
+    text-align:justify;
+    direction:rtl;
+  }
+  
+  
+  
+  
+      /* rött block 7 */
+     p:nth-of-type(7) {
+  animation-name: redbox2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+  
+  p:nth-of-type(7){animation-timing-function: linear;}
+  
+  @keyframes redbox2 {
+  0%   {margin-left: 75vw; margin-right: 1vw; }
+  100% {margin-left: 50vw; margin-right: 26vw;}
+}
+  
+  p:nth-of-type(7) {
+	color: teal;
+  background-color: red;
+  font-style: italic;
+    font-size: 15px;
+margin-left: 75vw;
+  margin-right: 1vw;
+  filter: blur(1px);
+    text-align:justify;
+    direction:rtl;
+}
+      /* rött block 7 */
+  
+  
+  
+  
+    p:nth-of-type(8) {
+	color: orange;
+  	font-family: cooper-black-std, serif;
+font-weight: 400;
+    font-size: 25px;
+margin-left: 50vw;
+  margin-right: 1vw;
+    text-align:justify;
+    direction:rtl;
+  }
+  
+  
+  
+  
+  /* rött block 9 */
+      p:nth-of-type(9) {
+  animation-name: redbox;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+  
+  p:nth-of-type(9){animation-timing-function: linear;}
+  
+  @keyframes redbox {
+  0%   {margin-left: 50vw; margin-right: 26vw;}
+  100% {margin-left: 75vw; margin-right: 1vw;}
+}
+  
+      p:nth-of-type(9) {
+	color: teal;
+  background-color: red;
+  font-style: italic;
+    font-size: 15px;
+margin-left: 75vw;
+  margin-right: 1vw;
+  filter: blur(1px);
+    text-align:justify;
+    direction:rtl;
+}
+    /* rött block 9 */
+  
+  
+  
+  
+      p:nth-of-type(10) {
+	color: orange;
+  	font-family: cooper-black-std, serif;
+font-weight: 400;
+    font-size: 25px;
+margin-left: 50vw;
+  margin-right: 1vw;
+    text-align:justify;
+    direction:rtl;
+  }
+  
+  
+  
+      /* rött block 11 */
+       p:nth-of-type(11) {
+  animation-name: redbox2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+  
+  p:nth-of-type(11){animation-timing-function: linear;}
+  
+  @keyframes redbox2 {
+  0%   {margin-left: 75vw; margin-right: 1vw; }
+  100% {margin-left: 50vw; margin-right: 26vw;}
+}
+  
+        p:nth-of-type(11) {
+	color: teal;
+  background-color: red;
+  font-style: italic;
+    font-size: 15px;
+margin-left: 75vw;
+  margin-right: 1vw;
+  filter: blur(1px);
+    text-align:justify;
+    direction:rtl;
+}
+      /* rött block 11 */
+  
+  
+  
+  
+  
+      p:nth-of-type(12) {
+	color: orange;
+  	font-family: cooper-black-std, serif;
+font-weight: 400;
+    font-size: 25px;
+margin-left: 50vw;
+  margin-right: 1vw;
+    text-align:justify;
+    direction:rtl;
+  }
+  
+  
+  
+        p:nth-of-type(13) {
+  animation-name: redbox;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+  
+  p:nth-of-type(13){animation-timing-function: linear;}
+  
+  @keyframes redbox {
+  0%   {margin-left: 50vw; margin-right: 26vw;}
+  100% {margin-left: 75vw; margin-right: 1vw;}
+}
+        p:nth-of-type(13) {
+	color: teal;
+  background-color: red;
+  font-style: italic;
+    font-size: 15px;
+margin-left: 75vw;
+  margin-right: 1vw;
+  filter: blur(1px);
+    text-align:justify;
+    direction:rtl;
+}
+  
+      p:nth-of-type(14) {
+	color: orange;
+  	font-family: cooper-black-std, serif;
+font-weight: 400;
+    font-size: 25px;
+margin-left: 50vw;
+  margin-right: 1vw;
+    text-align:justify;
+    direction:rtl;
+  }
+  
+  
+  
+         p:nth-of-type(15) {
+  animation-name: redbox2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+  
+  p:nth-of-type(15){animation-timing-function: linear;}
+  
+  @keyframes redbox2 {
+  0%   {margin-left: 75vw; margin-right: 1vw; }
+  100% {margin-left: 50vw; margin-right: 26vw;}
+}
+  
+          p:nth-of-type(15) {
+	color: teal;
+  background-color: red;
+  font-style: italic;
+    font-size: 15px;
+margin-left: 75vw;
+  margin-right: 1vw;
+  filter: blur(1px);
+    text-align:justify;
+    direction:rtl;
+}
+  
+  
+  
+          ul {
+  animation-name: redbox;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+  
+  ul{animation-timing-function: linear;}
+  
+  @keyframes redbox {
+  0%   {margin-left: 50vw; margin-right: 26vw;}
+  100% {margin-left: 75vw; margin-right: 1vw;}
+}
+  
+  ul {
+    	color: teal;
+  background-color: red;
+  font-style: italic;
+    font-size: 15px;
+margin-left: 75vw;
+  margin-right: 1vw;
+  filter: blur(1px);
+    text-align:justify;
+    direction:rtl;
+    
+  }
+  
+      p:nth-of-type(16) {
+	color: orange;
+  	font-family: cooper-black-std, serif;
+font-weight: 400;
+    font-size: 25px;
+margin-left: 50vw;
+  margin-right: 1vw;
+    text-align:justify;
+    direction:rtl;
+  }
+  
+  
+  
+           p:nth-of-type(17) {
+  animation-name: redbox2;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+  
+  p:nth-of-type(17){animation-timing-function: linear;}
+  
+  @keyframes redbox2 {
+  0%   {margin-left: 75vw; margin-right: 1vw; }
+  100% {margin-left: 50vw; margin-right: 26vw;}
+}
+  
+        p:nth-of-type(17) {
+    	color: teal;
+  background-color: red;
+  font-style: italic;
+    font-size: 15px;
+margin-left: 75vw;
+  margin-right: 1vw;
+  filter: blur(1px);
+    text-align:justify;
+    direction:rtl;
+  }
+  
+  
+  
+  
+ ol {
+  animation-name: redbox;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+     animation-direction: alternate;
+}
+  
+  ol{animation-timing-function: linear;}
+  
+  @keyframes redbox {
+  0%   {margin-left: 50vw; margin-right: 26vw;}
+  100% {margin-left: 75vw; margin-right: 1vw;}
+}
+  
+  ol{
+    	color: teal;
+  background-color: red;
+  font-style: italic;
+    font-size: 15px;
+margin-left: 75vw;
+  margin-right: 1vw;
+  filter: blur(1px);
+    text-align:justify;
+    direction:rtl;
+  
+}
+  
+
+/* only for high density devices with a specific maximum width */
+
+@media only screen and (-webkit-device-pixel-ratio: 2) and (max-device-width: 896px) {
+}
+
+/* only for screen */
+
+@media screen {
+}
+
+/* only for print */
+
+@media print {
+}
