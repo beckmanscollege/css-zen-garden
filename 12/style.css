@@ -1,7 +1,3 @@
-abbr {
-  text-decoration: dotted;
-}
-
 
 /* vietnamese */
 @font-face {
@@ -97,8 +93,7 @@ h1 {
 main p {
   flex-basis: calc(40% - 40px);
   padding: 10px;
-  opacity: 0.9;
-    
+   
 }
 
 
@@ -107,11 +102,6 @@ p:nth-of-type(1) {
 
   font-weight: 600;
   flex-basis: 75%;
-}
-
-p:nth-of-type(3) {
-  font-weight: 300;
-  
 }
 
 p:nth-of-type(4) {
@@ -252,13 +242,13 @@ a:visited {
   text-decoration: none;
 }
 
-/* mouse over link */
+
 a:hover {
   color: #4aa44b;
   text-decoration: none;
 }
 
-/* selected link */
+
 a:active {
   color: #ff4900;
   text-decoration: none;
